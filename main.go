@@ -10,12 +10,12 @@ import (
 func main() {
 	var inputFileName, outputFileName string
 	var testInputSize string
-	fmt.Print("Input file name: ")
-	fmt.Scanf("%s\n", &inputFileName)
-
-	fmt.Print("Output file name: ")
-	fmt.Scanf("%s\n", &outputFileName)
-
+	//fmt.Print("Input file name: ")
+	//fmt.Scanf("%s\n", &inputFileName)
+	inputFileName = "./examples.desktop"
+	//fmt.Print("Output file name: ")
+	//fmt.Scanf("%s\n", &outputFileName)
+	outputFileName = "./examples_sorted.desktop"
 	fmt.Print("Test array size: ")
 	fmt.Scanf("%d\n", &testInputSize)
 
